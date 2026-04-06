@@ -5,7 +5,7 @@
 **a. Initial design**
 
 - Briefly describe your initial UML design.
-  - Utilized the idea of customers, having pets (with their attributes), having a scheduler that run their tasks, having tasks based on what needs to be done and claude suggested having an additional class for the plan explainer
+  - Utilized the idea of customers, having pets (with their attributes), having a scheduler that run their tasks, having tasks based on what    needs to be done and claude suggested having an additional class for the plan explainer
 - What classes did you include, and what responsibilities did you assign to each?
    - Created custoemer class pet class, tasks, and scheduled task class, scheduler, plan explainer, and priority
 
@@ -16,8 +16,7 @@
   - Yes
 - If yes, describe at least one change and why you made it.
   - Claude suggested 2 main time saving redistrubtions, scheduled tasks as an extra class distinguihable from tasks
-  - and the plan explainer, to take information from the scheduler and display what atsks can be accomplsihed and what have
-  - to be skipped
+    and the plan explainer, to take information from the scheduler and display what atsks can be accomplsihed and what have to be skipped
 
 ---
 
@@ -35,8 +34,8 @@
 - Describe one tradeoff your scheduler makes.
   - it compares duration of tasks and priorities to determine which tasks are done first
 - Why is that tradeoff reasonable for this scenario?
-  -  it is reasonable because it ensure that the most mportant taks get done, and when there are a number of small
-  -  important ones it is not overshadowed by one long important one.
+  - it is reasonable because it ensure that the most mportant taks get done, and when there are a number of small
+    important ones it is not overshadowed by one long important one.
 
 ---
 
@@ -53,7 +52,7 @@
 
 - Describe one moment where you did not accept an AI suggestion as-is.
   - all of the AI suggestions wer on point and utilized, but i never asked broad, disruptive questions
-  - so they were always small changes at a time and focused
+    so they were always small changes at a time and focused
 - How did you evaluate or verify what the AI suggested?
   - Testing
 
@@ -64,16 +63,16 @@
 **a. What you tested**
 
 - What behaviors did you test?
-- Connections, validation of input and expected outcomes to user interactions
+  - Connections, validation of input and expected outcomes to user interactions
 - Why were these tests important?
-- to ensure good cutomer experience
+  - to ensure good cutomer experience
 
 **b. Confidence**
 
 - How confident are you that your scheduler works correctly?
-- 99%
+  - 99%
 - What edge cases would you test next if you had more time?
-- handling multiple pets
+  - handling multiple pets
 
 ---
 
@@ -82,13 +81,13 @@
 **a. What went well**
 
 - What part of this project are you most satisfied with?
-- time management mechanics
+  - time management mechanics
 
 **b. What you would improve**
 
 - If you had another iteration, what would you improve or redesign?
-- expand on the multiple pets module, and include preferences to suggest activities.
-- eg. active dogs would have increased priorites on excercise activities
+  - expand on the multiple pets module, and include preferences to suggest activities.
+    eg. active dogs would have increased priorites on excercise activities
 
 **c. Key takeaway**
 
